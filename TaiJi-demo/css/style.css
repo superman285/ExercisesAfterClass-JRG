@@ -1,0 +1,71 @@
+.TaiJi {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	position: relative;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.blackRight {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 100px;
+	height: 199px;
+	/* border: 1px solid black; */
+	border-radius:0 100px 100px 0;
+	background: #000;
+	box-sizing: border-box;
+}
+
+.whiteTop {
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 100px;
+	height: 99px;
+	border-radius:50px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.blackBottom {
+	position: absolute;
+	top: 99px;
+	left: 50px;
+	width: 100px;
+	height: 99px;
+	border-radius:50px;
+	background: #000;
+	box-sizing: border-box;
+} 
+
+
+.smallBlackT,.smallWhiteB {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+.smallBlackT {
+	background-color: #000;
+}
+
+.smallWhiteB {
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
