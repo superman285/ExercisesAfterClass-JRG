@@ -44,8 +44,11 @@ ul {
 }
 
 .topBar {
+    position:fixed;
+    width: 100%;
     margin-top: 30px;
     min-width: 648px;
+    z-index: 10;
 }
 
 .logo{
