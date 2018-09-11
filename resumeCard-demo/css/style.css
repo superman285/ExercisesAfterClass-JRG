@@ -1,0 +1,164 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #e0e0e0;
+    min-width: 520px;
+}
+
+.topWrap {
+    height: 500px;
+    background: url("../img/rs-cover.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.red {
+    color: #e6686a;
+}
+.grey {
+    color: #7e8084;
+}
+.black {
+    color: #000;
+}
+.bold {
+    font-weight: 700;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+.topBar {
+    margin-top: 30px;
+    min-width: 648px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo span {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.topNav ul {
+    margin-top: 0px;
+}
+
+.topNav a {
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-right:30px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+}
+
+.topNav a:hover {
+    border-bottom: 3px solid #e6686a;
+}
+
+/*personCard部分*/
+
+.personCard {
+    height: 550px;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+}
+
+
+.personHead {
+    height: 360px;
+    width: 320px;
+    margin: 50px 50px 0;
+    background: url("../img/avatar.jpg");
+    background-size: cover;
+}
+
+.personInfo {
+    width: 500px;
+    height: 360px;
+    margin-top: 50px;
+    color: #7e8084;
+}
+span.hello {
+    display: inline-block;
+    color: white;
+    background: #e6686a;
+    padding: 8px 15px;
+    position: relative;
+}
+span.tri {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-top: none;
+    border-left: 10px solid #e6686a;
+    position: absolute;
+    top: 100%;
+}
+
+.personInfo h1 {
+    margin-bottom: 0;
+}
+hr {
+    background: #dedede;
+    height: 1px;
+    border: none;
+    /*border-top: 1px solid #dedede;*/
+    margin: 30px 0;
+}
+
+span.info {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.personCard-SNS {
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #e6686a;
+    text-align: center;
+}
+
+.personCard-SNS a:hover {
+    background: #CF5D5F;
+}
+
+.personCard-SNS a {
+    display: inline-block;
+    padding: 6px 7px;
+    margin-top: 16px;
+    border-radius: 50%;
+}
+.personCard-SNS a:not(:last-of-type){
+    margin-right: 10px;
+}
+
+.personCard-SNS i{
+    font-size: 30px;
+    color: white;
+}
